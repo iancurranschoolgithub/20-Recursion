@@ -8,7 +8,8 @@ public class RecursionRunner
 {
 	public static void main(String args[])
 	{
-		System.out.println(RecursionFunOne.countOddDigits(453222));
+		// RecursionFunOne - CountEvenDigits
+		System.out.println(RecursionFunOne.countEvenDigits(41366));
 		
 		//add more test cases
 	}
