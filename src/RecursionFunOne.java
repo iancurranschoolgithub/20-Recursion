@@ -6,7 +6,6 @@ import static java.lang.System.*;
 
 public class RecursionFunOne
 {
-	int count = 0;
 	public static int countEvenDigits(int num) {
 		if (num > 0) {
 			if ((num % 10) % 2 == 0) {
@@ -16,7 +15,6 @@ public class RecursionFunOne
 			}
 		} else {
 			return 0;
-
 		}
 	}
 }
